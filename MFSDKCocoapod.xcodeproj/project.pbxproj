@@ -12,6 +12,7 @@
 		DACEC674228C117B00FCBCBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACEC672228C117B00FCBCBD /* Main.storyboard */; };
 		DACEC676228C117C00FCBCBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACEC675228C117C00FCBCBD /* Assets.xcassets */; };
 		DACEC679228C117C00FCBCBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACEC677228C117C00FCBCBD /* LaunchScreen.storyboard */; };
+		DACEC681228C11C000FCBCBD /* MFSDK.podspec in Sources */ = {isa = PBXBuildFile; fileRef = DACEC680228C11C000FCBCBD /* MFSDK.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DACEC675228C117C00FCBCBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACEC678228C117C00FCBCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DACEC67A228C117C00FCBCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACEC680228C11C000FCBCBD /* MFSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MFSDK.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		DACEC662228C117B00FCBCBD = {
 			isa = PBXGroup;
 			children = (
+				DACEC680228C11C000FCBCBD /* MFSDK.podspec */,
 				DACEC66D228C117B00FCBCBD /* MFSDKCocoapod */,
 				DACEC66C228C117B00FCBCBD /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACEC681228C11C000FCBCBD /* MFSDK.podspec in Sources */,
 				DACEC671228C117B00FCBCBD /* ViewController.swift in Sources */,
 				DACEC66F228C117B00FCBCBD /* AppDelegate.swift in Sources */,
 			);
