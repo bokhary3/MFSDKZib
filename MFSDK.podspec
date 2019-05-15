@@ -12,7 +12,7 @@ s.version           = '1.0'
 s.summary           = 'The MFSDK makes it easy to add MyFatoorah payments to mobile apps.'
 s.homepage          = 'https://dev.azure.com/myfatoorahsc/_git/MF-SDK-iOS-Demo'
 
-s.author            = { 'Name' => 'ehussein@myfatoorah.com' }
+s.author            = { 'MyFatoorah' => 'ehussein@myfatoorah.com' }
 s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
 s.platform          = :ios
