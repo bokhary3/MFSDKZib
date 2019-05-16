@@ -13,7 +13,7 @@ s.source            = { :git => "https://github.com/bokhary3/MFSDKZib.git", :bra
 s.ios.deployment_target = '11.0'
 s.ios.vendored_frameworks = 'MFSDK.framework'
 s.requires_arc = true
-s.source_files = 'Instabug.framework/Headers/*.{h}'
-s.vendored_frameworks = 'Instabug.framework'
-s.preserve_paths =  'Instabug.framework/*'
+s.source_files = 'MFSDK.framework/Headers/*.{h}'
+s.vendored_frameworks = 'MFSDK.framework'
+s.preserve_paths =  'MFSDK.framework/*'
 end
