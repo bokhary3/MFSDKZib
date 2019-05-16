@@ -8,7 +8,7 @@ s.homepage          = 'https://github.com/bokhary3/MFSDKZib'
 s.author            = { 'MyFatoorah' => 'ehussein@myfatoorah.com' }
 s.license           = { :type => 'Apache-2.0', :file => 'LICENSE.md' }
 
-s.source            = { :git => "https://github.com/bokhary3/MFSDKZib.git", :branch => 'mfsdk_cocoapod'}
+s.source            = { :git => "https://github.com/bokhary3/MFSDKZib.git", :tag => s.version.to_s}
 
 s.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/MFSDK/"' }
 
