@@ -17,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // set up your My Fatoorah Merchant details
+        MFSettings.shared.configure(username: "apiaccount@myfatoorah.com", password: "api12345*", baseURL: "https://apidemo.myfatoorah.com/")
+        
+        // you can change color and title of nvgigation bar
+        let them = MFTheme(navigationTintColor: .white, navigationBarTintColor: .lightGray, navigationTitle: "Payment", cancelButtonTitle: "Cancel")
+        MFSettings.shared.setTheme(theme: them)
         return true
     }
 
