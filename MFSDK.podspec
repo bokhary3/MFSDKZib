@@ -9,6 +9,7 @@ s.author            = { 'MyFatoorah' => 'ehussein@myfatoorah.com' }
 s.license           = { :type => 'Apache-2.0', :file => 'LICENSE.md' }
 
 s.source            = { :git => "https://github.com/bokhary3/MFSDKZib.git", :branch => 'mfsdk_cocoapod'}
+
 s.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/MFSDK/"' }
 
 s.ios.deployment_target = '11.0'

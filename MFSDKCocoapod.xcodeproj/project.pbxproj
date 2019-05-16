@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		91FC1D39D2C230CD98522FEA /* Pods_MFSDKCocoapod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A248BAD392A43134B3B58B /* Pods_MFSDKCocoapod.framework */; };
-		DA8E0210228D6CDC00839189 /* MFSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8E020F228D6CDC00839189 /* MFSDK.framework */; };
+		DA8E0212228D6EAA00839189 /* MFSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8E0211228D6EAA00839189 /* MFSDK.framework */; };
 		DACEC66F228C117B00FCBCBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACEC66E228C117B00FCBCBD /* AppDelegate.swift */; };
 		DACEC671228C117B00FCBCBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACEC670228C117B00FCBCBD /* ViewController.swift */; };
 		DACEC674228C117B00FCBCBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACEC672228C117B00FCBCBD /* Main.storyboard */; };
@@ -20,7 +20,7 @@
 		2255BFFAF4628481CCF1F697 /* Pods-MFSDKCocoapod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSDKCocoapod.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFSDKCocoapod/Pods-MFSDKCocoapod.release.xcconfig"; sourceTree = "<group>"; };
 		77A248BAD392A43134B3B58B /* Pods_MFSDKCocoapod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFSDKCocoapod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BC6CD84DA7AD97866BC1DB /* Pods-MFSDKCocoapod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSDKCocoapod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFSDKCocoapod/Pods-MFSDKCocoapod.debug.xcconfig"; sourceTree = "<group>"; };
-		DA8E020F228D6CDC00839189 /* MFSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MFSDK.framework; sourceTree = "<group>"; };
+		DA8E0211228D6EAA00839189 /* MFSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MFSDK.framework; sourceTree = "<group>"; };
 		DACEC66B228C117B00FCBCBD /* MFSDKCocoapod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFSDKCocoapod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACEC66E228C117B00FCBCBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DACEC670228C117B00FCBCBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8E0210228D6CDC00839189 /* MFSDK.framework in Frameworks */,
+				DA8E0212228D6EAA00839189 /* MFSDK.framework in Frameworks */,
 				91FC1D39D2C230CD98522FEA /* Pods_MFSDKCocoapod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,7 +65,7 @@
 		DACEC662228C117B00FCBCBD = {
 			isa = PBXGroup;
 			children = (
-				DA8E020F228D6CDC00839189 /* MFSDK.framework */,
+				DA8E0211228D6EAA00839189 /* MFSDK.framework */,
 				DACEC680228C11C000FCBCBD /* MFSDK.podspec */,
 				DACEC686228C165B00FCBCBD /* LICENSE.md */,
 				DACEC66D228C117B00FCBCBD /* MFSDKCocoapod */,
@@ -366,6 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KP75A62474;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -379,6 +380,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -389,6 +391,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KP75A62474;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -402,6 +405,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Release;
 		};

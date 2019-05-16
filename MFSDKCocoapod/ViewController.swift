@@ -64,6 +64,10 @@ class ViewController: UIViewController {
 }
 //MFOrder status Delegate methods
 extension ViewController : MFInvoiceCreateStatusDelegate {
+    func didInvoiceCreateSucess(result: String) {
+        
+    }
+    
     func didInvoiceCreateSucess(transaction: MFTransaction) {
         errorcodeLabel.text = "Succes"
         resultTextView.text = "result: \(transaction)"

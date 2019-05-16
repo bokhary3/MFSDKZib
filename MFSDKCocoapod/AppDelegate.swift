@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         MFSettings.shared.configure(username: "apiaccount@myfatoorah.com", password: "api12345*", baseURL: "https://apidemo.myfatoorah.com/")
         
         // you can change color and title of nvgigation bar
-        let them = MFTheme(navigationTintColor: .white, navigationBarTintColor: .lightGray, navigationTitle: "Payment", cancelButtonTitle: "Cancel")
+        let them = MFTheme(navigationTintColor: .white, navigationBarTintColor: .lightGray, navigationTitle: "Payment", cancelButtonTitle: "Cancel", font: UIFont.systemFont(ofSize: 20))
         MFSettings.shared.setTheme(theme: them)
         return true
     }
