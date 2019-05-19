@@ -10,7 +10,7 @@ s.license           = { :type => 'Apache-2.0', :file => 'LICENSE.md' }
 
 s.source            = { :git => "https://github.com/bokhary3/MFSDKZib.git", :tag => s.version.to_s}
 
-s.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/MFSDK/"' }
+s.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/MyFatoorah/"' }
 
 s.ios.deployment_target = '11.0'
 s.ios.vendored_frameworks = 'MFSDK.framework'
