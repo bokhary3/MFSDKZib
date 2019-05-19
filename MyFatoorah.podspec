@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name              = 'MyFatoorah'
-s.version           = '1.0.1'
+s.version           = '1.0.2'
 s.summary           = 'The MFSDK makes it easy to add MyFatoorah payments to mobile apps.'
 s.homepage          = 'https://github.com/bokhary3/MFSDKZib'
 
