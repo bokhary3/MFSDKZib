@@ -28,7 +28,7 @@
 		DACEC675228C117C00FCBCBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACEC678228C117C00FCBCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DACEC67A228C117C00FCBCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DACEC680228C11C000FCBCBD /* MFSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MFSDK.podspec; sourceTree = "<group>"; };
+		DACEC680228C11C000FCBCBD /* MyFatoorah.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyFatoorah.podspec; sourceTree = "<group>"; };
 		DACEC686228C165B00FCBCBD /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				DA8E0211228D6EAA00839189 /* MFSDK.framework */,
-				DACEC680228C11C000FCBCBD /* MFSDK.podspec */,
+				DACEC680228C11C000FCBCBD /* MyFatoorah.podspec */,
 				DACEC686228C165B00FCBCBD /* LICENSE.md */,
 				DACEC66D228C117B00FCBCBD /* MFSDKCocoapod */,
 				DACEC66C228C117B00FCBCBD /* Products */,
